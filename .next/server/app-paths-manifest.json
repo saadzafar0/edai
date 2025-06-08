@@ -1,0 +1,16 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/course/[courseId]/route": "app/api/course/[courseId]/route.js",
+  "/api/course/create/route": "app/api/course/create/route.js",
+  "/api/course/manageContent/route": "app/api/course/manageContent/route.js",
+  "/api/dashboard/route": "app/api/dashboard/route.js",
+  "/api/edgestore/[...edgestore]/route": "app/api/edgestore/[...edgestore]/route.js",
+  "/api/signup/route": "app/api/signup/route.js",
+  "/dashboard/course-details/[courseId]/page": "app/dashboard/course-details/[courseId]/page.js",
+  "/dashboard/create-course/page": "app/dashboard/create-course/page.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/dashboard/viewall/page": "app/dashboard/viewall/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/signup/page": "app/signup/page.js"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 94, "column": 0}, "map": {"version":3,"sources":["file:///run/media/saad/Local%20Disk/impSTUFF/edai/src/app/api/edgestore/%5B...edgestore%5D/route.ts"],"sourcesContent":["import { initEdgeStore } from '@edgestore/server';\nimport { createEdgeStoreNextHandler } from '@edgestore/server/adapters/next/app';\n \nconst es = initEdgeStore.create();\n \n/**\n * This is the main router for the EdgeStore buckets.\n */\nconst edgeStoreRouter = es.router({\n  publicFiles: es.fileBucket(),\n});\n \nconst handler = createEdgeStoreNextHandler({\n  router: edgeStoreRouter,\n});\n \nexport { handler as GET, handler as POST };\n \n/**\n * This type is used to create the type-safe client for the frontend.\n */\nexport type EdgeStoreRouter = typeof edgeStoreRouter;"],"names":[],"mappings":";;;;AAAA;AAAA;AACA;;;AAEA,MAAM,KAAK,yJAAA,CAAA,gBAAa,CAAC,MAAM;AAE/B;;CAEC,GACD,MAAM,kBAAkB,GAAG,MAAM,CAAC;IAChC,aAAa,GAAG,UAAU;AAC5B;AAEA,MAAM,UAAU,CAAA,GAAA,oLAAA,CAAA,6BAA0B,AAAD,EAAE;IACzC,QAAQ;AACV","debugId":null}}]
+}
